@@ -133,7 +133,7 @@ public class ArchiverHelper
 	}
 
 	/**
-	 * 
+	 * Load entity relationship of database structures
 	 * @param executionMode
 	 * @param idEntity
 	 * @param dbStructure
