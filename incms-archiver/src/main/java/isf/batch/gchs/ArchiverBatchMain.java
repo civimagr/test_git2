@@ -116,7 +116,6 @@ public class ArchiverBatchMain extends BatchGenericRetrieveAndTreatMultiThread
 	{
 		sharedMemory=new SharedMemory();
 		stats=new ProcessStatsHelper();
-		// logBusiness=new ArchiverBatchLog(connection, session, super.getTaskId());
 
 		// STEP 1: Load variation from DB
 		final IArchiveVariantRequest variant=new ArchiveVariantRequestDOMImpl(BatchLaunchCondition.getBatchDocument(connection, session, codBatchLaunchCondition));
@@ -231,7 +230,6 @@ public class ArchiverBatchMain extends BatchGenericRetrieveAndTreatMultiThread
 		}
 
 		Log.getInstance().info(processResult.toString());
-		// logBusiness.generateLogOk(connection, processResult.toString());
 	}
 
 	/**
