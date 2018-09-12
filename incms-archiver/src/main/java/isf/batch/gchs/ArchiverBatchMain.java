@@ -11,7 +11,6 @@ import isf.batch.BatchGenericRetrieveAndTreatMultiThread;
 import isf.batch.variants.BatchLaunchCondition;
 import isf.db.Pool;
 import isf.domain.gchs.ArchiverHelper;
-//import isf.log.LogManager;
 import isf.persistence.gchs.GchsExecutionMode;
 import isf.servlets.Session;
 import isf.servlets.gchs.ArchiveVariantRequestDOMImpl;
@@ -43,9 +42,6 @@ public class ArchiverBatchMain extends BatchGenericRetrieveAndTreatMultiThread
 {
 	// Batch name
 	private static final String PROCESS_NAME="INCMSHSS10";
-
-	// Business log
-//	private transient LogManager logBusiness;
 
 	// *** Fields to store execution status ***
 	// Total number of tasks
