@@ -149,7 +149,7 @@ public class ArchiverBatchMain extends BatchGenericRetrieveAndTreatMultiThread
 	}
 
 	/*
-	 * (non-Javadoc)
+	 * Treat task
 	 * 
 	 * @see isf.batch.BatchGenericRetrieveAndTreatMultiThread#treatTask(java.sql.Connection, isf.servlets.Session, java.util.Date, java.lang.Object)
 	 */
