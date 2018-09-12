@@ -3,7 +3,7 @@ package isf.domain.gchs.entities;
 import java.util.Map;
 
 /*
- * Revisions:
+ * Revisions: goes through the database structure
  * 
  * 06/06/2016 pcal [PIEI-] Initial.
  */
