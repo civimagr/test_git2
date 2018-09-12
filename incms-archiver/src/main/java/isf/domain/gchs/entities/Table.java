@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 import isf.domain.gchs.exceptions.InconsistencyDetectedException;
-
+//Prepare syntax for Table handling
 public class Table implements Comparable<Table>
 {
 
