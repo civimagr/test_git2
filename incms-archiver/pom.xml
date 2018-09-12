@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>incms-archiver</artifactId>
+	<name>incms-archiver</name>
+	<parent>
+		<groupId>com.indracompany.incms</groupId>
+		<artifactId>incms-parent</artifactId>
+		<version>icDesa3-4.7.1.228.261-SNAPSHOT</version>
+	</parent>
+	<dependencies>
+		<dependency>
+			<groupId>GCV10</groupId>
+			<artifactId>isfv10-multibatch</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.indracompany.incms</groupId>
+			<artifactId>incms-base</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<!--
+		<dependency>
+			<groupId>com.indracompany.incms</groupId>
+			<artifactId>incms-main</artifactId>
+		</dependency>
+		-->
+	</dependencies>
+</project>
