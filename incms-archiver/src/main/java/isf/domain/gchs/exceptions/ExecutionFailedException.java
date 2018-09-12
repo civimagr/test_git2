@@ -7,7 +7,7 @@ package isf.domain.gchs.exceptions;
  */
 
 /**
- * 
+ * Exception UID assigned
  * @author pcal
  * @version 2016.00
  */
